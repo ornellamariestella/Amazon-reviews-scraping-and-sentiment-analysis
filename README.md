@@ -1,7 +1,7 @@
 > [!TIP]
 > Read this first. 
 
-# Amazon product reviews: analyzing user feedback through sentiment score and issue categorization
+# Amazon product reviews: analyzing user feedback through sentiment score and issue categorizationx
 
 Recently, I picked up *running as a hobby*. I was debating whether to buy a **running vest** to hold my phone and keys while outdoors, so I decided to utilize my data skills to analyze [this Amazon product](https://www.amazon.com/Zelvot-Adjustable-Hydration-Breathable-Reflective/dp/B0D6YMKZ64/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8). 
 
@@ -20,10 +20,11 @@ Recently, I picked up *running as a hobby*. I was debating whether to buy a **ru
 ## Findings
 
 - Currently, we have **73 reviews** for this product with an average rating of **4.46 stars**. 
-- Rating score and BERT score have positive correlation, yet BERT score gives us a more nuanced look at the sentiment behind the stars given by our customers. 
-- In particular, by comparing the two scores, we are able to pick up user feedback about sizing issues and comfort under warm weather. 
-- On a positive note, the customer support seems to do a great job when contacted by customers over product issues. 
-- Keywords seem to be mostly positive for these reviews, with focus on product features. A few negative mentions refer to the size.
-- To investigate this further, we categorize reviews based on issues. Sizing issues seems to affect 4% of our reviews, while there are no mentions of complaints related to price or faulty items.
+- We performed a sentiment analysis using ML (BERT pre-trained model) and noticed a **positive correlation between sentiment score and rating score** of our reviews.
+- The sentiment score gave us a **more nuanced look** at each review.
+- In particular, by reviewing 5-star reviews with negative sentiment, we were able to pick up user feedback about **sizing issues** and **comfort in warm weather**. 
+- On a positive note, the **customer support** was praised for providing high quality service.
+- With a keyword analysis, we noticed **popular words used** in our reviews are mostly positive, with **focus on product features**, our strongest asset. We have a few negative mentions concerning **sizing**.
+- To investigate this matter further, we categorized reviews based on issues. **Sizing issues** are mentioned in **4% of our reviews**, while there are no complaints related to price or faulty items.
 
 Thank you for checking out this repo! :star2:
