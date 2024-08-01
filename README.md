@@ -3,7 +3,7 @@
 
 # Amazon product reviews: analyzing user feedback through sentiment score and issue categorization
 
-Recently, I picked up running as a hobby. I was debating whether to buy a running vest to hold my phone and keys while outdoors, so I decided to utilize my data skills to analyze [this Amazon product](https://www.amazon.com/Zelvot-Adjustable-Hydration-Breathable-Reflective/dp/B0D6YMKZ64/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8). 
+Recently, I picked up *running as a hobby*. I was debating whether to buy a **running vest** to hold my phone and keys while outdoors, so I decided to utilize my data skills to analyze [this Amazon product](https://www.amazon.com/Zelvot-Adjustable-Hydration-Breathable-Reflective/dp/B0D6YMKZ64/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8). 
 
 ## The task
 
@@ -19,14 +19,11 @@ Recently, I picked up running as a hobby. I was debating whether to buy a runnin
 
 ## Findings
 
-- According to the data, the **most expensive neighbourhood group** based on AirBnB's 2019 listings is **Manhattan** with an average $179 per night, followed by **Brooklyn** and **Staten Island**. **The cheapest** seems to be the **Bronx** with $85 dollars on average.
-
-- By no surprise, **the cheapest neighbourhoods** are located in the Bronx (**Hunts Point, Tremont, Soundview**) where we average around $50 a night only.
-
-- When looking at **room types**, shared rooms are definitely the **cheapest option**, followed by single rooms, and entire apartments. Shared rooms are also the **least popular** room type offered in the City, while it is most common to have an **entire homes** listed by AirBnB hosts. 
-
-- When looking at the **Bronx**, single rooms are the **most popular type of listing** to be found.
-
-- Lastly, with **629 reviews** in 2019 only, Bronx's single *"Room near JFK Queen Bed"* is the **top reviewed listing** (id 9145202) by host Dona.
+- Currently, we have **73 reviews** for this product with an average rating of **4.46 stars**. 
+- Rating score and BERT score have positive correlation, yet BERT score gives us a more nuanced look at the sentiment behind the stars given by our customers. 
+- In particular, by comparing the two scores, we are able to pick up user feedback about sizing issues and comfort under warm weather. 
+- On a positive note, the customer support seems to do a great job when contacted by customers over product issues. 
+- Keywords seem to be mostly positive for these reviews, with focus on product features. A few negative mentions refer to the size.
+- To investigate this further, we categorize reviews based on issues. Sizing issues seems to affect 4% of our reviews, while there are no mentions of complaints related to price or faulty items.
 
 Thank you for checking out this repo! :star2:
